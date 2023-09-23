@@ -6,7 +6,7 @@ An app that uses Cloud Flair worker, and Planet-Scale Database to give the abili
 2. Above the list of files, click  Code.
   
   
-      ![](https://github.com/Rishav9852Kumar/Sample-Donation-App/blob/main/resources/Capture.PNG?raw=true)
+      ![](https://docs.github.com/assets/cb-32892/mw-1440/images/help/repository/code-button.webp)
 	 
 To Clone this Repository in your Local Machine
 ```
