@@ -125,19 +125,32 @@ git clone https://github.com/Rishav9852Kumar/Sample-Donation-App.git
     "current_donation": "0.00"
    }
     ]
- ```
-
-	 
-for delete: -
-{
-  "id": 4
-}
-
-for Post : -
-
-for : - update
-{
-  "id": 2,
-  "amount": 50
-}
-
+   ```
+### Case 4: Delete a Fundraiser 
+1. Choose a Fundraiser name and its fundraiser_id.
+1. Prepare a JSON request
+   ```
+    {
+    "id": 2
+    }
+   ```
+1. Hit the planet Scale URL with the above raw JSON payload with the DELETE request
+2. **Response**
+   ```
+    [
+   {
+    "fundraiser_id": 1,
+    "fundraiser_title": "My sample fundraiser 1",
+    "fundraiser_description": "This is a description of my fundraiser 1.",
+    "target_donation": "10000.00",
+    "current_donation": "0.00"
+   },
+   {
+    "fundraiser_id": 3,
+    "fundraiser_title": "My sample fundraiser 3",
+    "fundraiser_description": "This is a description of my fundraiser 3",
+    "target_donation": "30000.00",
+    "current_donation": "0.00"
+   }
+    ]
+   ```
