@@ -19,8 +19,9 @@ git clone https://github.com/Rishav9852Kumar/Sample-Donation-App.git
 ```
 - [X] 7. Press Enter to create your local clone.
 
-## Starting with the project 
-### Step 0 : Set up 
+## Setting Up Projects and tools
+
+### Step 0: Set up 
 - Install all required dependencies
   ```
   npm install
@@ -30,11 +31,37 @@ git clone https://github.com/Rishav9852Kumar/Sample-Donation-App.git
   npx wrangler publish
   ```
 + <a href="https://www.postman.com/" target="_blank">Open Postman</a>
+* Copy and store the URL of your Cloudflare endpoint
+  ```
+  https://planetscale-worker.rishav-5d9.workers.dev/
+  ```
+## Starting with the project 
 ### Case 1: Create a new Fundraiser 
+1. Choose a sample name and description, and target amount for your fundraiser 
+1. Prepare a JSON request
+   ```
+   {
+   "title": "My sample fundraiser 1",
+   "description": "This is a description of my fundraiser 1.",
+   "target_amount": 10000
+    }
+   ```
+1. Hit the planet Scale URL with the above raw JSON payload with the PUT request
+2. **Response**
+   ```
+   " no of new fundraiser added = 1"
+   [
+    {
+    "fundraiser_id": 1,
+    "fundraiser_title": "My sample fundraiser 1",
+    "fundraiser_description": "This is a description of my fundraiser 1.",
+    "target_donation": "10000.00",
+    "current_donation": "0.00"
+    }
+   ]
+   ```
 
 
-
-for get : - 
 
 for delete: -
 {
@@ -42,11 +69,7 @@ for delete: -
 }
 
 for Post : -
-{
-  "title": "My samle test Fundraiser",
-  "description": "This is a description of my fundraiser.",
-  "target_amount": 1000000
-}
+
 for : - update
 {
   "id": 2,
