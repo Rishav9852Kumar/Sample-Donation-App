@@ -29,7 +29,7 @@ git clone https://github.com/Rishav9852Kumar/Sample-Donation-App.git
   ```
   npx wrangler publish
   ```
-+ [Open Postman](https://www.postman.com/:target="_blank") 
++ [Open Postman](https://www.postman.com/target="_blank") 
 ### Case 1: Create a new Fundraiser 
 
 
