@@ -6,6 +6,7 @@ An app that uses Cloud Flair worker, and Planet-Scale Database to give the abili
 - [x] 2. Above the list of files, click  Code.
       
      ![](https://docs.github.com/assets/cb-32892/mw-1440/images/help/repository/code-button.webp)
+     <img src="https://docs.github.com/assets/cb-32892/mw-1440/images/help/repository/code-button.webp" width="50" height="50">
 
 - [X] 3. Copy the URL for the repository.
       
