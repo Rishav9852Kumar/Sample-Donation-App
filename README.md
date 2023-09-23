@@ -19,6 +19,18 @@ git clone https://github.com/Rishav9852Kumar/Sample-Donation-App.git
 ```
 - [X] 7. Press Enter to create your local clone.
 
+## Starting with the project 
+### step 0 : Set up 
+- Install all required dependencies
+  ```
+  npm install
+  ```
+* Deploy your code to your cloud flair using the command
+  ```
+  npx wrangler publish
+  ```
++ Open Postman 
+### Case 1: Create a new Fundraiser 
 
 
 
