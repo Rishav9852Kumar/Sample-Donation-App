@@ -3,8 +3,7 @@ An app that uses Cloud Flair worker, and Planet-Scale Database to give the abili
 
 ## Cloning a repository
 1. On GitHub.com, navigate to the main page of the repository.
-1. Above the list of files, click  Code.
-  ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+1. Above the list of files, click  Code. ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
 	 
 To Clone this Repository in your Local Machine
 ```
