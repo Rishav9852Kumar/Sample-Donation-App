@@ -36,6 +36,14 @@ git clone https://github.com/Rishav9852Kumar/Sample-Donation-App.git
   ```
   https://planetscale-worker.rishav-5d9.workers.dev/
   ```
+#### DB- Table Schema 
+funraiser_DB
+- fundraiser_id,
++ fundraiser_titile,
+* fundraiser description
++ target donation
+- current donation
+  
 ## Starting with the project 
 ### Case 1: Create a new Fundraiser 
 1. Choose a sample name and description, and target amount for your fundraiser 
