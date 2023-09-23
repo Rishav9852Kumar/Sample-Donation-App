@@ -2,18 +2,22 @@
 An app that uses Cloud Flair worker, and Planet-Scale Database to give the ability to create, Read, and Update the donation so far and delete the donation using API calls.
 
 ## Cloning a repository
-1. On GitHub.com, navigate to the main page of the repository.
-2. Above the list of files, click  Code.
-  
-  
-      ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
-	 
-To Clone this Repository in your Local Machine
+- [x] 1. On GitHub.com, navigate to the main page of the repository.
+- [x] 2. Above the list of files, click  Code.
+      
+     ![](https://docs.github.com/assets/cb-32892/mw-1440/images/help/repository/code-button.webp)
+
+- [X] 3. Copy the URL for the repository.
+      
+     ![](https://docs.github.com/assets/cb-45942/mw-1440/images/help/repository/https-url-clone-cli.webp)
+      
+- [X] 4. Open Git Bash
+- [X] 5. Change the current working directory to the location where you want the cloned directory.
+- [X] 6.Type git clone, and then paste the URL you copied earlier.
 ```
-git status
-git add
-git commit
+git clone https://github.com/Rishav9852Kumar/Sample-Donation-App.git
 ```
+- [X] 7. Press Enter to create your local clone.
 
 
 
