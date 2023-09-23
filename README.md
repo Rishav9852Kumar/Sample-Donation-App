@@ -11,13 +11,13 @@ An app that uses Cloud Flair worker, and Planet-Scale Database to give the abili
       
      ![](https://docs.github.com/assets/cb-45942/mw-1440/images/help/repository/https-url-clone-cli.webp)
       
-- [X] 4. To Clone this Repository in your Local Machine
-      
+- [X] 4. Open Git Bash
+- [X] 5. Change the current working directory to the location where you want the cloned directory.
+- [X] 6.Type git clone, and then paste the URL you copied earlier.
 ```
-git status
-git add
-git commit
+git clone https://github.com/Rishav9852Kumar/Sample-Donation-App.git
 ```
+- [X] 7. Press Enter to create your local clone.
 
 
 
