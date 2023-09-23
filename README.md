@@ -2,7 +2,7 @@
 An app that uses Cloud Flair worker, and Planet-Scale Database to give the ability to create, Read, and Update the donation so far and delete the donation using API calls.
 
 ## Cloning a repository
-1. On GitHub.com, navigate to the main page of the repository.
+- [x] 1. On GitHub.com, navigate to the main page of the repository.
 2. Above the list of files, click  Code.
   
   
