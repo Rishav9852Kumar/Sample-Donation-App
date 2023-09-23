@@ -6,7 +6,7 @@ An app that uses Cloud Flair worker, and Planet-Scale Database to give the abili
 2. Above the list of files, click  Code.
   
   
-      ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.]([https://myoctocat.com/assets/images/base-octocat.svg]([https://github.com/Rishav9852Kumar/Sample-Donation-App/blob/main/resources/Capture.PNG](https://github.com/Rishav9852Kumar/Sample-Donation-App/blob/main/resources/Capture.PNG)))
+      ![](https://github.com/Rishav9852Kumar/Sample-Donation-App/blob/main/resources/Capture.PNG?raw=true)
 	 
 To Clone this Repository in your Local Machine
 ```
