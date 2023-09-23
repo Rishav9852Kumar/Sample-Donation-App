@@ -4,9 +4,8 @@ An app that uses Cloud Flair worker, and Planet-Scale Database to give the abili
 ## Cloning a repository
 - [x] 1. On GitHub.com, navigate to the main page of the repository.
 - [x] 2. Above the list of files, click  Code.
-      
-     ![](https://docs.github.com/assets/cb-32892/mw-1440/images/help/repository/code-button.webp)
-     <img src="https://docs.github.com/assets/cb-32892/mw-1440/images/help/repository/code-button.webp" width="50" height="50">
+
+     <img src="https://docs.github.com/assets/cb-32892/mw-1440/images/help/repository/code-button.webp" width="80" height="80">
 
 - [X] 3. Copy the URL for the repository.
       
