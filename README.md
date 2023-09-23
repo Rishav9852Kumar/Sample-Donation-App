@@ -60,9 +60,74 @@ git clone https://github.com/Rishav9852Kumar/Sample-Donation-App.git
     }
    ]
    ```
+2. Create a few more Fundraisers for the next cases
+   
+### Case 2: Read all Fundraiser So Far
+1. Hit the planet Scale URL with the GET request, or simply paste the URL in any Browser
+2. **Response**
+   ```
+   [
+    {
+    "fundraiser_id": 1,
+    "fundraiser_title": "My sample fundraiser 1",
+    "fundraiser_description": "This is a description of my fundraiser 1.",
+    "target_donation": "10000.00",
+    "current_donation": "0.00"
+    },
+    {
+    "fundraiser_id": 2,
+    "fundraiser_title": "My sample fundraiser 2",
+    "fundraiser_description": "This is a description of my fundraiser 2",
+    "target_donation": "20000.00",
+    "current_donation": "0.00"
+    },
+    {
+    "fundraiser_id": 3,
+    "fundraiser_title": "My sample fundraiser 3",
+    "fundraiser_description": "This is a description of my fundraiser 3",
+    "target_donation": "30000.00",
+    "current_donation": "0.00"
+    }
+   ]
+   ```
+### Case 3: Update an existing Fundraiser, (Donate some amount to the donation)
+1. Choose a specific donation and its fundraiser_id and a specific amount you want to add to that fundraiser. 
+1. Prepare a JSON request
+   ```
+    {
+     "id": 2,
+     "amount": 500
+    }
+   ```
+1. Hit the planet Scale URL with the above raw JSON payload with the PATCH request
+2. **Response**
+   ```
+     [
+   {
+    "fundraiser_id": 1,
+    "fundraiser_title": "My sample fundraiser 1",
+    "fundraiser_description": "This is a description of my fundraiser 1.",
+    "target_donation": "10000.00",
+    "current_donation": "0.00"
+   },
+   {
+    "fundraiser_id": 2,
+    "fundraiser_title": "My sample fundraiser 2",
+    "fundraiser_description": "This is a description of my fundraiser 2",
+    "target_donation": "20000.00",
+    "current_donation": "500.00"
+   },
+   {
+    "fundraiser_id": 3,
+    "fundraiser_title": "My sample fundraiser 3",
+    "fundraiser_description": "This is a description of my fundraiser 3",
+    "target_donation": "30000.00",
+    "current_donation": "0.00"
+   }
+    ]
+   ```
 
-
-
+	 
 for delete: -
 {
   "id": 4
