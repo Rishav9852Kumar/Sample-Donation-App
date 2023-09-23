@@ -20,7 +20,7 @@ git clone https://github.com/Rishav9852Kumar/Sample-Donation-App.git
 - [X] 7. Press Enter to create your local clone.
 
 ## Starting with the project 
-### step 0 : Set up 
+### Step 0 : Set up 
 - Install all required dependencies
   ```
   npm install
@@ -29,7 +29,7 @@ git clone https://github.com/Rishav9852Kumar/Sample-Donation-App.git
   ```
   npx wrangler publish
   ```
-+ Open Postman 
++ [Open Postman](https://www.postman.com/) 
 ### Case 1: Create a new Fundraiser 
 
 
