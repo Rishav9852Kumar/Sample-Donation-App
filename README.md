@@ -125,7 +125,7 @@ git clone https://github.com/Rishav9852Kumar/Sample-Donation-App.git
     "current_donation": "0.00"
    }
     ]
-   ```
+ ```
 
 	 
 for delete: -
