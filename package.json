@@ -1,0 +1,15 @@
+{
+  "name": "planetscale-worker",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "@planetscale/database": "^1.11.0"
+  }
+}
