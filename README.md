@@ -36,7 +36,7 @@ git clone https://github.com/Rishav9852Kumar/Sample-Donation-App.git
   ```
   https://planetscale-worker.rishav-5d9.workers.dev/
   ```
-#### DB- Table Schema 
+#### DB- [Table Schema](https://planetscale.com/) 
 funraiser_DB
 - fundraiser_id,
 + fundraiser_titile,
