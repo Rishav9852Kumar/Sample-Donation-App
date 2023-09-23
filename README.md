@@ -31,6 +31,7 @@ git clone https://github.com/Rishav9852Kumar/Sample-Donation-App.git
   npx wrangler publish
   ```
 + <a href="https://www.postman.com/" target="_blank">Open Postman</a>
+- <a href="https://codebeautify.org/json-parser-online/" target="_blank">Keeep Json parser/ Beautifier handy</a>
 * Copy and store the URL of your Cloudflare endpoint
   ```
   https://planetscale-worker.rishav-5d9.workers.dev/
