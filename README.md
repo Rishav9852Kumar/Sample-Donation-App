@@ -1,5 +1,5 @@
 # Sample-Donation-App
-An app that uses Cloud Flair worker, and Planet-Scale Database to give the ability to create, Read, and Update the donation so far and delete the donation using API calls.
+An app that uses Cloud Flair worker, and Planet-Scale Database to give the ability to create, Read, and Update the donation and delete the donation using API calls.
 
 ## Cloning a repository
 - [x] 1. On GitHub.com, navigate to the main page of the repository.
